@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height:100px;
+    width:100%;
+    background-color: navy;
+    margin: 0,auto;
+    overflow: hidden;
+
+}
+.logo{
+    float: left;
+    width:13%
+    
+    
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width:70% ;
+    margin-top: 25px;
+}
+.menu ul{
+    float: right;
+
+}
+.menu ul li{
+    float: left;
+    text-decoration:none ;
+    color: white;
+    padding: 5px 15px;
+    list-style: none;
+    
+}
+.banner{
+    background-image: url(../images/Desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    width: 100%;
+}
+.content{
+    padding-top: 200px;
+    padding-bottom: 50px;
+
+}
+.content p:first-child{
+    color:white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.content h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: navy;
+}
+.content p:nth-last-child(2){
+    color:white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.content Button{
+    padding: 10px 20px;
+    color: navy;
+    border-radius: 30%;
+    margin-left: 10px; 
+    margin-top: 20px;
+}
